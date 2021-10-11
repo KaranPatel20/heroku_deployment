@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from tensorflow import keras 
 import numpy as np
 
-st.title("Image Classification with Google's Teachable Machine")
+#st.title("Image Classification with Google's Teachable Machine")
 st.header("Brain Tumor MRI Classification Example")
 st.text("Upload a brain MRI Image for image classification as tumor or no-tumor")
 st.text(tensorflow.__version__)
