@@ -12,7 +12,7 @@ st.text("Upload a brain MRI Image for image classification as tumor or no-tumor"
 st.text(tensorflow.__version__)
 def teachable_machine_classification(img):
     # Load the model
-    model = tensorflow.keras.models.load_model('./Model-RESNET-final.h5')
+    model = tensorflow.keras.models.load_model('./app/Model-RESNET-final.h5')
 
     # Create the array of the right shape to feed into the keras model
     data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
