@@ -1,4 +1,4 @@
 numpy==1.19.3
-streamlit
+streamlit==1.0.0
 pillow
 tensorflow-cpu
