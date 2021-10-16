@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow
 from PIL import Image, ImageOps
 from tensorflow.keras.models import load_model
-from model import teachable_machine_classification
+from image_model_load import teachable_machine_classification
 from tensorflow import keras 
 import numpy as np
 
